@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f1f1f1;
+}
+.global_padding {
+  padding: 0 123px;
+}
+@media (max-width: 600px) {
+  .global_padding {
+    padding: 0;
+  }
+}
+
+/* ---- Top Margin ---- */
+.container_tm {
+  margin-top: 40px;
+}
+
+/* ---- For LINK ---- */
+.link {
+  color: #fff;
+  text-decoration: none;
+}

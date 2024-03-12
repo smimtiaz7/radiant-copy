@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_variation_variations",
+  "info": {
+    "displayName": "variation",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

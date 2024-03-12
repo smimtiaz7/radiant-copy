@@ -1,0 +1,38 @@
+.container {
+  padding: 0 123px;
+  background-color: #31363f;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px !important;
+  padding-top: 30px !important;
+}
+
+.contact {
+  width: 100%;
+  color: white;
+}
+.icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.instore {
+  width: 100%;
+  color: white;
+}
+
+.radiant {
+  width: 100%;
+  color: white;
+}
+
+.support {
+  width: 100%;
+  color: white;
+}
+
+.cursor {
+  cursor: pointer;
+}
